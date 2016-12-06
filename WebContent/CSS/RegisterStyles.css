@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+body {margin: 0;padding: 0;height:100%;
+backgroubd-color:"red";}
+
+.ImageContainer {
+	margin:0;
+	background-image: url("../Images/clinic-slider-compressor.jpg");
+	width:100%; 
+	opacity: 0.6;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100%;
+	position:absolute;
+	
+}
+.error{
+	color:#FF0000;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 13px;
+}
+.TextContainer
+{   
+	margin-left: 60%;
+	padding-top: 1%;
+	opacity: 1;
+}
+.FormContainer
+{    
+	padding-top: 0;
+	margin-left: 60%;
+    float:top;
+}
+.FormContainer .checkreg{
+padding:10px 1px 10px 19px;
+height:30px;
+width:50%;
+background-color:#ffffff;
+border:none;
+border:1px;
+border-radius:10px;
+box-shadow: 2px 2px;
+ }
+.FormContainer .reg{
+padding:10px 1px 10px 19px;
+height:30px;
+width:50%;
+background-color:#ffffff;
+border:none;
+border:1px;
+border-radius:10px;
+box-shadow: 2px 2px;
+ }
+.FormContainer .button-reg{
+font-weight: bold;
+font-family: sans-serif;
+border:none;
+height: 40px;
+width: 50%;
+background-color: #1abc9c;
+color:#ffffff;
+border:1px;
+border-radius:10px;
+
+}
+h1 { color: "black"; font-family: 'Trocchi', serif; font-size: 62px; font-weight: normal; line-height: 48px; margin: 0; }
+h4 { color: "black"; font-family: 'Source Sans Pro', sans-serif; font-size: 20px; font-weight: 400; line-height: 32px; 
+ margin: 0 0 200px;
+ }
+ 
+ .heading
+ {color: "black"; font-family: 'Source Sans Pro', sans-serif; font-size: 20px; font-weight: 400; line-height: 32px; 
+ margin: 0 0 200px;
+ margin-bottom: 2%;
+ }

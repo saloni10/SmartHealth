@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+
+body {margin: 0;padding: 0;height:100%;
+background-color: #A0CFEC;
+}
+
+.TextContainer
+{   
+	margin-right:5%;
+	float:right;
+	padding-top: 1%;
+	opacity: 1;
+	height:150px;
+}
+
+h1 {color:#2980b9; font-family: 'Trocchi', serif; font-size: 62px; font-weight: normal; line-height: 48px; margin: 0; }
+h4 { color:#2980b9; font-family: 'Source Sans Pro', sans-serif; font-size: 20px; font-weight: 400; line-height: 32px; 
+ margin: 0 0 200px;
+ }
+ 
+ .PostDiv{
+
+ border-radius: 25px;
+ border: 25px solid #A0CFEC;
+ padding: 25px;
+ margin: 25px;
+ width:1000px;
+ height:200px;
+background-color: #2980b9;
+ }
+  .postContainer{
+ 
+ float:left;
+ margin-left: 7%;
+ margin-top:1%;
+ }
+  input[type=text],input[type=url]{
+padding:10px 1px 10px 19px;
+height:10px;
+width:13%;
+background-color:#ffffff;
+border:none;
+border:1px;
+border-radius:10px;
+box-shadow: 2px 2px;
+ }
+ input[type=submit]{
+font-weight: bold;
+font-family: sans-serif;
+border:none;
+height: 35px;
+width: 13%;
+background-color: #1abc9c;
+color:#ffffff;
+border:1px;
+border-radius:10px;
+}
+.head
+{
+	font-size:28px;
+}
